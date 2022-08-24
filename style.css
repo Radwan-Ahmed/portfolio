@@ -11,10 +11,10 @@ body{
     padding: 3%;
     
 }
-.half-width h1{
+h1{
     font-size: 40px;
 }
-.half-width p{
+ p{
     text-align: justify;
 }
 .half-width img{
@@ -26,6 +26,27 @@ body{
     background-image: linear-gradient(orange,tomato);
     border-radius: 6px;
     padding: 10px 40px;
-    color: white;
+    color: white; 
     font-weight: 700;
+}
+.experience{
+    padding: 0 3%;
+}
+.experience .half-width{
+    margin: 0 5%;
+    box-shadow: 10px 10px 5px gray ;
+    border-radius: 10px;
+}
+.experience .border1{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange,cyan);
+    border-image-slice: 1;
+}
+.experience .border2{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
