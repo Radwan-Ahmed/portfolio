@@ -31,7 +31,7 @@ h1{
     transition: 0.8s;
 }
 .link-button:hover{
-    background-image: linear-gradient(rgb(16, 220, 108), gold);
+    background-image: linear-gradient( gold, rgb(16, 220, 108));
     color: black;
     padding: 10px 45px;
 }
