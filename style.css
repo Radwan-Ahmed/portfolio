@@ -62,7 +62,6 @@ h1{
     border-left: 7px solid;
     border-image: linear-gradient(cyan, orange);
     border-image-slice: 1;
-    background-color: wheat;
 }
 .border2:hover{
     cursor: pointer;
