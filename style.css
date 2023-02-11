@@ -21,6 +21,12 @@ h1{
     width: 80%;
     border-radius: 40%;
 }
+.border1 a{
+    width: auto;
+    display: flex;
+    margin-bottom: 5px;
+    text-align: center;
+}
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(orange,tomato);
