@@ -21,8 +21,16 @@ h1{
     width: 80%;
     border-radius: 40%;
 }
+.border2 a{
+    width: auto;
+    height: auto;
+    display: flex;
+    margin-bottom: 5px;
+    text-align: center;
+}
 .border1 a{
     width: auto;
+    height: auto;
     display: flex;
     margin-bottom: 5px;
     text-align: center;
