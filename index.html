@@ -5,203 +5,211 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Radwan Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
+
+    <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+    </style>
 </head>
 
 <body>
-    
-<!--
-<nav class="navbar navbar-expand-lg navbar-light bg-white">
-    <div class="container-fluid">
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <a class="navbar-brand mt-2 mt-lg-0" href="/index.html"><img src="/assets/radwan_formal.png" height="15" alt="Radwan" loading="lazy"/></a>
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Team</a></li>
-          <li class="nav-item"><a class="nav-link" href="/navFile/projects.html">Projects</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-        </ul>
+
+<!-- HERO SECTION -->
+<section class="container py-5">
+  <div class="row align-items-center">
+    <div class="col-md-6 mb-4">
+      <h1>Welcome to</h1>
+      <h1><span style="color:#f5de0cfa;">Radwan Ahmed</span> World!</h1>
+      <h3>Bringing creativity to life, one project at a time</h3>
+      <p>
+        Welcome to my portfolio! I am thrilled to share with you my passion for design, 
+        photography, web development, etc. On this page, you will find a showcase of my previous 
+        projects and accomplishments. If you have any questions or would like to work with me, 
+        please don't hesitate to reach out.
+      </p>
+      <a target="_blank" class="btn btn-warning" href="https://www.linkedin.com/in/radwan-ahmed-a61365194/">HIRE ME</a>
+    </div>
+
+    <div class="col-md-6 text-center">
+      <img src="assets/radwan_formal.png" alt="Radwan Ahmed" class="img-fluid">
+    </div>
+  </div>
+</section>
+
+<!-- DEVELOPER SECTION -->
+<section class="container py-5">
+  <div class="row align-items-center">
+
+    <div class="col-md-6 text-center mb-4">
+      <img src="assets/development.jpg" alt="Developer" class="img-fluid">
+    </div>
+
+    <div class="col-md-6">
+      <h1>Become a Developer</h1>
+      <h3>Crafting solutions with code and creativity</h3>
+      <p>
+        As a developer, I am driven by my passion for using technology to create innovative solutions. 
+        My strong technical skills in HTML, CSS, JavaScript, Java, XML, and Android SDK allow me 
+        to turn complex concepts into functional software.
+      </p>
+      <a target="_blank" class="btn btn-warning" href="assets/resume.pdf" download="resume.pdf">Download Resume</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section class="container py-5">
+  <h1 class="section-title">Education</h1>
+
+  <div class="row justify-content-center">
+    <div class="col-md-10">
+      <div class="p-4 border rounded">
+        <h1>Building a strong foundation for success through education.</h1>
+        <p>
+          I completed SSC with GPA 5.0, HSC with GPA 4.0, and BSc in CSE with GPA 3.04 from 
+          Bangladesh Army University of Science and Technology. I have strong skills in HTML, CSS, 
+          JavaScript, Java, Firebase, Android Studio, and Visual Studio.
+        </p>
       </div>
     </div>
-  </nav>
--->
-    <section class="half">
-        <div class="half-width">
-            <h1>Welcome to</h1>
-            <h1><span style="color:#f5de0cfa ;">Radwan Ahmed</span> World!</h1>
-            <h3>Bringing creativity to life, one project at a time</h3>
-            <p>
-                Welcome to my portfolio! I am thrilled to share with you my passion for [insert what you are passionate about, such as design, 
-                photography, web development, etc.]. On this page, you will find a showcase of my previous projects and accomplishments. I invite 
-                you to take a look and gain insight into my creative process and style. If you have any questions or would like to work with me, 
-                please don't hesitate to reach out. Thank you for stopping by!
-            </p>
-            <a target="_blank" class="link-button" href="https://www.linkedin.com/in/radwan-ahmed-a61365194/">HIRE ME</a>
-        </div>
-        <div class="half-width">
-            <img src="assets/radwan_formal.png" alt="Radwan Ahmed">
-        </div>
-    </section>
+  </div>
+</section>
 
-    <section class="half">
-        <div class="half-width">
-            <img src="assets/development.jpg" alt="Developer">
-        </div>
-        <div class="half-width">
-            <h1>Become a Developer</h1>
-            <h3>Crafting solutions with code and creativity</h3>
-            <p>
-                As a developer, I am driven by my passion for using technology to create innovative solutions and bring ideas to life. My strong 
-                technical skills in HTML, CSS, JavaScript, and various web development frameworks, Java, XML, and the Android SDK, coupled with my 
-                problem-solving abilities and attention to detail, enable me to turn complex concepts into functional, user-friendly software. I 
-                am constantly seeking new challenges and opportunities to learn and grow in this ever-evolving field.
-            </p>
-            <a target="_blank" class="link-button" href="assets/resume.pdf" download="resume.pdf">Download Resume</a>
-        </div>
-    </section>
-<!--Education-->
-    <section class="experience">
-        <h1>Education</h1>
-        <div class="half">
-            <div class="half-width border1">
-                <h1>Building a strong foundation for success through education.</h1>
-                <p>
-                    I am proud to have a strong academic background, starting with my Secondary School Certificate from Jadabpur BM High School 
-                    with a GPA of 5.0. I continued my education, earning my Higher Secondary School Certificate from Afaz Uddin School and College 
-                    with a GPA of 4.0. I then went on to complete my Bachelor of Science in Computer Science and Engineering from Bangladesh Army 
-                    University of Science and Technology, where I graduated with a GPA of 3.04. This solid educational foundation has equipped 
-                    me with the skills and knowledge necessary to excel in my field. Throughout my academic career, I have developed a strong 
-                    foundation in HTML, CSS, JavaScript, Java, databases, Firebase, Android Studio, and Visual Studio. I am a lifelong 
-                    learner, and I am always looking for new ways to expand my knowledge and advance my career.
-                </p>
-            </div>
-        </div>
-    </section>
-<!--Experience--> 
-    <section class="experience">
-        <h1>Experience</h1>
-        <div class="half">
-            <div class="half-width border1">
-                <h1>Android Developer</h1>
-                <h3 style="color: orange ;">2020-present | Pro level Developer</h3>
-                <p>
-                    As an experienced Android developer, I am well-versed in creating and developing innovative, user-friendly Android 
-                    applications. I have a deep understanding of the Android platform and its various tools and technologies, including Java, XML, 
-                    and the Android SDK. My strong technical skills, combined with my creativity and attention to detail, have allowed me to 
-                    deliver high-quality, robust Android applications that meet the needs of my clients. I am always looking for new challenges and 
-                    opportunities to grow and improve as an Android developer.
-                </p>
-            </div>
-            <div class="half-width border2">
-                <h1>Web Developer</h1>
-                <h3 style="color: orange ;" >2021-2022 | Pro level Developer</h3>
-                <p>
-                    As a skilled web developer, I am passionate about using my technical expertise to create dynamic, user-friendly websites and 
-                    applications. With a strong foundation in HTML, CSS, JavaScript, and various web development frameworks, I am able to bring 
-                    designs to life and create engaging user experiences. I am highly detail-oriented and committed to creating well-structured, 
-                    accessible, and scalable web solutions that meet the needs of my clients. I am always seeking new challenges and opportunities 
-                    to grow and improve as a web developer.
-                </p>
-            </div>
-        </div>
-    </section>
+<!-- EXPERIENCE -->
+<section class="container py-5">
+  <h1 class="section-title">Experience</h1>
 
-<!--Work Section-->
-    <section class="experience">
-        <h1>Personal Project</h1>
-        <div class="half">
-            <div class="half-width border1">
-                <h1>Pet House</h1>
-                <h3 style="color: orange ;">2021 | Pro level Developer</h3>
-                <p>
-                    Pet House is your one-stop-shop for adopting a new furry friend. Offering a variety of healthy and happy pets, expert staff, 
-                    and a health guarantee. Find your perfect companion today!
-                </p>
-                <a target="_blank" class="link-button" href="https://pethousedemo.netlify.app/">Demo Site</a>
-                <a target="_blank" class="link-button" href="https://github.com/Radwan-Ahmed/Pet-House">Github Repository</a>
-            </div>
-            <div class="half-width border2">
-                <h1>RAP Messaging</h1>
-                <h3 style="color: orange ;" >2022-Present | Pro level Developer</h3>
-                <p>
-                    Effective messaging communication streamlines processes and builds strong relationships. Clear and concise messaging leads to 
-                    better understanding and successful outcomes.
-                </p>
-                <a target="_blank" class="link-button" href="https://github.com/Radwan-Ahmed/RAP-Messaging">Github Repository</a>
-            </div> 
-            <div class="half-width border2">
-                <h1>Student Report Card</h1>
-                <h3 style="color: orange ;" >2020 | Pro level Developer</h3>
-                <p>
-                    Student report cards provide a comprehensive evaluation of academic progress, including grades, attendance, and personalized 
-                    feedback from teachers.
-                </p>
-                <a target="_blank" class="link-button" href="https://github.com/Radwan-Ahmed/student-report-card">Github Repository</a>
-            </div> 
+  <div class="row g-4">
+
+    <div class="col-md-6">
+      <div class="p-4 border rounded h-100">
+        <h1>Android Developer</h1>
+        <h3 class="text-warning">2020-present | Pro level Developer</h3>
+        <p>
+          I create innovative Android applications using Java, XML, and Android SDK. My creativity 
+          and attention to detail help in delivering high-quality applications.
+        </p>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="p-4 border rounded h-100">
+        <h1>Web Developer</h1>
+        <h3 class="text-warning">2021-2022 | Pro level Developer</h3>
+        <p>
+          Skilled in HTML, CSS, JavaScript, and frameworks, I bring designs to life and create 
+          dynamic web applications with smooth user experiences.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="container py-5">
+  <h1 class="section-title">Personal Project</h1>
+
+  <div class="row g-4">
+
+    <div class="col-md-4">
+      <div class="p-4 border rounded h-100">
+        <h1>Pet House</h1>
+        <h3 class="text-warning">2021 | Pro level Developer</h3>
+        <p>
+          Pet House is your one-stop-shop for adopting healthy, happy pets.
+        </p>
+        <a class="btn btn-warning btn-sm" target="_blank" href="https://pethousedemo.netlify.app/">Demo Site</a>
+        <a class="btn btn-dark btn-sm" target="_blank" href="https://github.com/Radwan-Ahmed/Pet-House">Github</a>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="p-4 border rounded h-100">
+        <h1>RAP Messaging</h1>
+        <h3 class="text-warning">2022-Present | Pro level Developer</h3>
+        <p>
+          Messaging communication that improves understanding and productivity.
+        </p>
+        <a class="btn btn-dark btn-sm" target="_blank" href="https://github.com/Radwan-Ahmed/RAP-Messaging">Github</a>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="p-4 border rounded h-100">
+        <h1>Student Report Card</h1>
+        <h3 class="text-warning">2020 | Pro level Developer</h3>
+        <p>
+          Provides full academic evaluation including grades and attendance.
+        </p>
+        <a class="btn btn-dark btn-sm" target="_blank" href="https://github.com/Radwan-Ahmed/student-report-card">Github</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white text-lg-start text-muted mt-5">
+
+  <section class="text-center p-4">
+    <a class="btn text-white btn-floating m-1" style="background-color:#3b5998" target="_blank" href="#"><i class="fab fa-facebook-f"></i></a>
+    <a class="btn text-white btn-floating m-1" style="background-color:#55acee" target="_blank" href="#"><i class="fab fa-twitter"></i></a>
+    <a class="btn text-white btn-floating m-1" style="background-color:#ac2bac" target="_blank" href="#"><i class="fab fa-instagram"></i></a>
+    <a class="btn text-white btn-floating m-1" style="background-color:#0082ca" target="_blank" href="#"><i class="fab fa-linkedin-in"></i></a>
+    <a class="btn text-white btn-floating m-1" style="background-color:#333" target="_blank" href="#"><i class="fab fa-github"></i></a>
+  </section>
+
+  <section class="border-top p-4">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-6 mb-4">
+          <h6 class="fw-bold"><i class="fas fa-gem me-2"></i>About Myself</h6>
+          <p>
+            I am a highly motivated individual with a passion for technology. 
+            I strive to grow professionally and personally every day.
+          </p>
         </div>
 
-<!--footer-->
-    <footer class="bg-dark text-white text-lg-start text-muted">
-        <!-- Grid container -->
-        <div class="container p-4 pb-0 text-center">
-          <!-- Section: Social media -->
-          <section class="mb-4">
-            <!-- Facebook -->
-            <a class="btn text-white btn-floating m-1" target="_blank" style="background-color: #3b5998;"
-             href="https://www.facebook.com/iamridwanriddi/" role="button"><i class="fab fa-facebook-f"></i></a>
-            <!-- Twitter -->
-            <a class="btn text-white btn-floating m-1" target="_blank" style="background-color: #55acee;"
-            href="https://twitter.com/iamridwanriddi" role="button"><i class="fab fa-twitter"></i></a>
-            <!-- Instagram -->
-            <a class="btn text-white btn-floating m-1" target="_blank" style="background-color: #ac2bac;"
-            href="https://www.instagram.com/iamridwanriddi4real/"role="button"><i class="fab fa-instagram"></i></a>
-            <!-- Linkedin -->
-            <a class="btn text-white btn-floating m-1" target="_blank" style="background-color: #0082ca;"
-            href="https://www.linkedin.com/in/radwan-ahmed-a61365194/"role="button"><i class="fab fa-linkedin-in"></i></a>
-            <!-- Github -->
-            <a class="btn text-white btn-floating m-1" target="_blank" style="background-color: #333333;"
-            href="https://github.com/Radwan-Ahmed"role="button"><i class="fab fa-github"></i></a>
-          </section>
+        <div class="col-md-6 mb-4">
+          <h6 class="fw-bold">Contact</h6>
+          <p><i class="fas fa-home me-2"></i>Jadabpur 1345, Dhamrai, Dhaka, Bangladesh</p>
+          <p><i class="fas fa-envelope me-2"></i>radwanahmedsahed07@gmail</p>
+          <p><i class="fas fa-phone me-2"></i>+8801786601210</p>
         </div>
 
-     <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-      <div class="container text-center text-md-start mt-5">
-        <div class="row mt-3">
-          
-          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-     
-            <h6 class="text-uppercase fw-bold mb-4"><i class="fas fa-gem me-3"></i>About Myself</h6>
-            <p class="text-lg-start">
-                I am a highly motivated and driven individual with a passion for technology and innovation. Whether working independently or as 
-                part of a team, I am committed to delivering high-quality results and always strive to continuously improve and grow in my 
-                personal and professional life.
-            </p>
-          </div>
+      </div>
+    </div>
+  </section>
 
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-            <p><i class="fas fa-home me-3"></i> Jadabpur 1345, Dhamrai, Dhaka, Bangladesh</p>
-            <p><i class="fas fa-envelope me-3"></i> radwanahmedsahed07@gmail</p>
-            <p><i class="fas fa-phone me-3"></i> +8801786601210</p>
-          </div>
+  <div class="text-center p-3 bg-black text-white-50">
+    © 2023 Copyright
+  </div>
 
-        </div>
+</footer>
 
-       </div>
-    </section>
-  
-     <!-- Copyright -->
-      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-      © 2023 Copyright
-     </div>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
-    </footer>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"></script>
 </body>
 </html>
